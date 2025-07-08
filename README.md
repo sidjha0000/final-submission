@@ -28,7 +28,7 @@ This project implements a **Dynamic Pricing System** for 14 urban parking lots u
 
 ## 🧠 Architecture Diagram
 
-```mermaid
+``mermaid
 graph TD
     A[Input CSV Dataset (73 days)] --> B[Data Cleaning & Preprocessing]
     B --> C[Feature Engineering: Occupancy Rate, Vehicle Weights]
