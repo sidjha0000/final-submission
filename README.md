@@ -24,17 +24,3 @@ This project implements a **Dynamic Pricing System** for 14 urban parking lots u
 - **Jupyter Notebook** – development environment
 - **GitHub** – version control
 
----
-
-## 🧠 Architecture Diagram
-
-``mermaid
-graph TD
-    A[Input CSV Dataset (73 days)] --> B[Data Cleaning & Preprocessing]
-    B --> C[Feature Engineering: Occupancy Rate, Vehicle Weights]
-    C --> D[Model 1: Baseline Pricing]
-    C --> E[Model 2: Demand-Based Pricing]
-    D --> F[Price Clipping (5$-20$)]
-    E --> F
-    F --> G[Data Visualization]
-    G --> H[Final Report & GitHub Submission]
